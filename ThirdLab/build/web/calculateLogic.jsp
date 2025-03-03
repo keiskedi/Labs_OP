@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-
+<title>Таблиця</title>
 <%
     String task = request.getParameter("task");
     if (task == null) return;
@@ -65,3 +65,4 @@
         out.println("<p style='color:red;'>Невірне введення. Будь ласка, введіть число</p>");
     }
 %>
+<p><a href="index.html">Повернутися до вибору завдання</a></p>
