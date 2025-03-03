@@ -31,17 +31,17 @@
                 String dTo = (String) session.getAttribute(prefix + "dTo");
                 String dStep = (String) session.getAttribute(prefix + "dStep");
 
-                aFrom = (aFrom != null) ? aFrom : "1";
-                aTo = (aTo != null) ? aTo : "1";
+                aFrom = (aFrom != null) ? aFrom : "1.27";
+                aTo = (aTo != null) ? aTo : "1.27";
                 aStep = (aStep != null) ? aStep : "1";
-                bFrom = (bFrom != null) ? bFrom : "1";
-                bTo = (bTo != null) ? bTo : "1";
+                bFrom = (bFrom != null) ? bFrom : "10.99";
+                bTo = (bTo != null) ? bTo : "10.99";
                 bStep = (bStep != null) ? bStep : "1";
-                cFrom = (cFrom != null) ? cFrom : "1";
-                cTo = (cTo != null) ? cTo : "1";
+                cFrom = (cFrom != null) ? cFrom : "4";
+                cTo = (cTo != null) ? cTo : "4";
                 cStep = (cStep != null) ? cStep : "1";
-                dFrom = (dFrom != null) ? dFrom : "1";
-                dTo = (dTo != null) ? dTo : "1";
+                dFrom = (dFrom != null) ? dFrom : "-25.32";
+                dTo = (dTo != null) ? dTo : "-25.32";
                 dStep = (dStep != null) ? dStep : "1";
             %>
 
